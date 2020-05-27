@@ -1,3 +1,114 @@
 @import 'vars';
 @import 'global';
 @import 'fonts';
+.header {
+    .header__top {
+        background-color: #eef1f3;
+    }
+    .header__topInner {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__topInnerBox {
+        display: flex;
+        align-items: center;
+    }
+    .header__becomeASeller {
+        align-self: flex-end;
+        a {
+            font-size: 14px;
+            line-height: 14px;
+            color: #fff;
+            padding: 13px 20px;
+            background-color: #0674ec;
+            border-radius: 20px;
+        }
+    }
+    .header__alerts {
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        a + a {
+            margin-left: 30px;
+        }
+    }
+    .header__userInfo {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .userInfo__stat {
+        margin-left: 25px;
+    }
+    .userInfo__avatar {
+        width: 50px;
+        height: 50px;
+    }
+    .userInfo__name,
+    .userInfo__balance {
+        display: block;
+        line-height: 22px;
+    }
+    .userInfo__name {
+        color: #333333;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .userInfo__balance {
+        color: #0674ec;
+        font-size: 15px;
+    }
+    .header__bottom {
+        &-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+        &-menu li {
+            display: inline-block;
+        }
+        &-menu li + li {
+            margin-left: 30px;
+        }
+        &-menu a {
+            color: #333333;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        &-form {
+            max-width: 360px;
+            width: 100%;
+            position: relative;
+            input {
+                display: block;
+                width: 100%;
+                border: 1px solid rgb(217, 223, 229);
+                height: 44px;
+                border-radius: 22px;
+                font-size: 15px;
+                padding-left: 25px;
+                padding-right: 80px;
+                font-weight: 400;
+                &::placeholder {
+                    color: #898f96;
+                    font-weight: 400;
+                }
+            }
+            button {
+                position: absolute;
+                border: none;
+                width: 70px;
+                height: 44px;
+                background-color: rgb(6, 116, 236);
+                right: 0;
+                top: 0;
+                border-radius: 22px;
+            }
+        }
+    }
+}
