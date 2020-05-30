@@ -165,6 +165,7 @@
             width: 100%;
             height: 135px;
             background-color: #fff;
+            box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
             border-radius: 6px;
             position: absolute;
             bottom: -67px;
@@ -248,16 +249,39 @@
 }
 
 
-.Rectangle_238_copy {
-  border-radius: 6px;
-  background-color: rgb(255, 255, 255);
-  opacity: 0.502;
-  position: absolute;
-  left: 405px;
-  top: 823px;
-  width: 1110px;
-  height: 135px;
-  z-index: 728;
+.benefits__inner {
+    margin-top: 185px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.benefits__item {
+    max-width: 360px;
+    width: 100%;
+    padding: 40px 35px 45px;
+
+    &-central {
+        max-width: 360px;
+        width: 100%;
+        padding: 40px 35px 45px;
+        box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    }
+
+    &-img {
+        margin-bottom: 40px;
+    }
+    &-title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+    &-text {
+        color: #555555;
+        line-height: 30px;
+    }
 }
 
 
