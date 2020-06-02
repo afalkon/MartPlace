@@ -483,7 +483,6 @@
         padding: 30px 30px 15px;
         background-color: #fff;
         box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
-
     }
     &-title {
         font-size: 20px;
@@ -519,6 +518,7 @@
         object-fit: cover;
     }
 }
+
 .product__item-userName {
     line-height: 15px;
     color: #000;
@@ -549,7 +549,6 @@
     padding-top: 60px;
     display: flex;
     justify-content: center;
-
     & button {
         background-color: #f1f3f6;
         border: none;
@@ -568,12 +567,40 @@
     transition: all .3s;
 }
 
-.Forma_1_copy {
-  background-color: rgb(115, 71, 193);
-  position: absolute;
-  left: 570px;
-  top: 3170px;
-  width: 16px;
-  height: 16px;
-  z-index: 425;
+.followersFeed {
+    background-color: #eff1f5;
+    padding: 120px 0;
+    &__inner {
+        &-slider {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+    }
+}
+
+.followersFeed__slider-prevArrow,
+.followersFeed__slider-nextArrow {
+    position: absolute;
+    outline: none;
+    border: none;
+    z-index: 60;
+}
+
+.followersFeed__slider-prevArrow {
+    width: 55px;
+    height: 45px;
+    background-color: #7347c1;
+    border-radius: 22px 0 0 22px;
+    right: 85px;
+    top: -127px;
+}
+
+.followersFeed__slider-nextArrow {
+    width: 55px;
+    height: 45px;
+    background-color: #7347c1;
+    border-radius: 0 22px 22px 0;
+    right: 31px;
+    top: -127px;
 }
