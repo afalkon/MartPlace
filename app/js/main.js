@@ -4,3 +4,5 @@ $(document).ready(function() {
         nextArrow: '<button type="button" class="featuredProducts__slider-nextArrow"><img src="../images/icons/productsSliderChevronNext.png"</button>'
     });
 });
+
+var mixer = mixitup('.newestProducts__inner-items');
