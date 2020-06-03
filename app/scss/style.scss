@@ -260,12 +260,7 @@
     max-width: 360px;
     width: 100%;
     padding: 40px 35px 45px;
-    &-central {
-        max-width: 360px;
-        width: 100%;
-        padding: 40px 35px 45px;
-        box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
-    }
+    transition: .5s;
     &-img {
         margin-bottom: 40px;
     }
@@ -279,6 +274,10 @@
         color: #555555;
         line-height: 30px;
     }
+}
+
+.benefits__item:hover {
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
 }
 
 //Begining of Featured Products Section
@@ -567,6 +566,7 @@
     transition: all .3s;
 }
 
+//Begin of Followers Feed Section
 .followersFeed {
     background-color: #eff1f5;
     padding: 120px 0;
@@ -604,3 +604,44 @@
     right: 31px;
     top: -127px;
 }
+
+.slick-list {
+    text-align: center;
+}
+
+//End of Followers Feed Section
+//Start of Statistics Section
+.statistics {
+    background-color: #212225;
+    padding: 100px 0;
+    min-height: 355px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        max-width: 155px;
+        width: 100%;
+        text-align: center;
+
+        &-icon {
+            width: 48px;
+            height: 41px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0 auto 50px;
+        }
+        &-number {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        &-text {
+            font-size: 18px;
+            color: #fff;
+        }
+    }
+}
+
+//End of Statistics Section
