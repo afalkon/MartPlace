@@ -1,76 +1,84 @@
     html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    display: inline-block;
-    text-decoration: none;
-}
-
-ul,
-li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-body {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-}
-
-.container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-.containerFluid {
-    max-width: 1920px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.section__title {
-    min-height: 110px;
-    width: 100%;
-    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
-    background-color: #fff;
-    border-radius: 4px;
-    padding-left: 25px;
-    padding-right: 165px;
-    font-size: 30px;
-    line-height: 40px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.title2 {
-    font-size: 36px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    span {
-        font-size: 36px;
-        color: #0674ec;
+        box-sizing: border-box;
     }
-}
 
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    body {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+    }
+
+    .container {
+        max-width: 1170px;
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .containerFluid {
+        max-width: 1920px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section__title {
+        min-height: 110px;
+        width: 100%;
+        box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+        background-color: #fff;
+        border-radius: 4px;
+        padding-left: 25px;
+        padding-right: 165px;
+        font-size: 30px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .title2 {
+        font-size: 36px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        span {
+            font-size: 36px;
+            color: #0674ec;
+        }
+    }
+
+    .underTitle2 {
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 690px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
