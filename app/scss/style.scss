@@ -624,7 +624,6 @@
         max-width: 155px;
         width: 100%;
         text-align: center;
-
         &-icon {
             width: 48px;
             height: 41px;
@@ -645,3 +644,131 @@
 }
 
 //End of Statistics Section
+//Start of Benefits Section
+
+.whyChoose {
+    padding: 120px 0;
+    text-align: center;
+
+    &__underTitle {
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 690px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        &-item {
+            border-radius: 4px;
+            box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+            max-width: 360px;
+            width: 100%;
+            max-height: 380px;
+            position: relative;
+            padding: 0 35px;
+        }
+    }
+}
+
+.inner-item__number {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 48px;
+    color: #5c87f8;
+    opacity: .2;
+}
+
+.inner-item__icon {
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+}
+
+.inner-item__title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.inner-item__text {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 60px;
+}
+
+//End of Benefits Section
+//Start of Join Section
+
+.join {
+    &__inner {
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        padding: 100px 15px;
+        text-align: center;
+        width: 50%;
+        border: none;
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-icon {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 50px;
+        }
+        &-title {
+            max-width: 590px;
+            width: 100%;
+            font-size: 36px;
+            color: #fff;
+            margin-bottom: 35px;
+        }
+        &-text {
+            max-width: 590px;
+            width: 100%;
+            font-size: 16px;
+            line-height: 30px;
+            color: #fff;
+            margin-bottom: 50px;
+        }
+        &-linkOne,
+        &-linkTwo {
+            width: 192px;
+            height: 60px;
+            font-size: 16px;
+            line-height: 16px;
+            border-radius: 30px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-linkOne {
+            color: #0674ec;
+        }
+        &-linkTwo {
+            color: #7347c1;
+        }
+    }
+    &__item:first-child {
+        background-image: url(../images/join/joinBgLeft.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__item:last-child {
+        background-image: url(../images/join/joinBgRigth.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
