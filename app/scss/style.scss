@@ -972,3 +972,29 @@
 }
 
 //End of More Benefits Section
+//Start of Join Us Today Section
+
+.joinUsToday {
+    background-image: -webkit-linear-gradient( 180deg, rgb(13,62,242) 0%, rgb(64,48,201) 46%, rgb(114,33,160) 100%);
+    text-align: center;
+    padding: 110px 0;
+    &__title {
+        font-size: 36px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    &__undertitle {
+        font-size: 18px;
+        color: #e7e7e7;
+        margin-bottom: 50px;
+    }
+    &__link {
+        padding: 20px 45px;
+        border-radius: 28px;
+        color: #0674ec;
+        font-size: 16px;
+        background-color: #fff;
+    }
+}
+
+//End of join us today Section
