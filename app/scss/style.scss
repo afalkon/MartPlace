@@ -827,3 +827,106 @@
     border-radius: 31px;
     background-color: #0674ec;
 }
+
+//End of Feedback Section
+//Start of Latest News Section
+.latestNews {
+    background-color: #eff1f5;
+    padding: 120px 0;
+    text-align: center;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+        border-radius: 4px;
+        max-width: 360px;
+        width: 100%;
+        background-color: #fff;
+        &-image {
+            width: 360px;
+            height: 230px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-body {
+            padding: 30px 25px;
+            text-align: left;
+            border-bottom: 1px solid #ececec;
+        }
+        &-title {
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+        &-text {
+            font-size: 16px;
+            color: #555555;
+            line-height: 30px;
+        }
+        &-bottom {
+            padding: 10px 25px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &-statistics {
+            display: flex;
+            border-left: 1px solid #ececec;
+            width: 50%;
+        }
+        &-date {
+            line-height: 40px;
+            padding-left: 23px;
+            font-size: 15px;
+            color: #999999;
+            position: relative;
+        }
+        &-date::before {
+            content: '';
+            position: absolute;
+            background-image: url(../images/latestNews/clock.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 16px;
+            height: 15px;
+            left: 0;
+            top: 12px;
+        }
+        &-likes,
+        &-shows {
+            font-size: 15px;
+            line-height: 40px;
+            color: #7e7e7e;
+            padding-left: 54px;
+            position: relative;
+        }
+        &-likes::before {
+            content: '';
+            position: absolute;
+            background-image: url(../images/latestNews/bubble.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 16px;
+            height: 14px;
+            left: 33px;
+            top: 12px;
+        }
+        &-shows::before {
+            content: '';
+            position: absolute;
+            background-image: url(../images/latestNews/eye.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 17px;
+            height: 9px;
+            left: 30px;
+            top: 14px;
+        }
+    }
+}
+
+//End of Latest News Section
