@@ -876,8 +876,7 @@
             width: 50%;
         }
         &-date {
-            line-height: 40px;
-            padding-left: 23px;
+            margin: 12px 0 12px 23px;
             font-size: 15px;
             color: #999999;
             position: relative;
@@ -891,15 +890,15 @@
             background-size: cover;
             width: 16px;
             height: 15px;
-            left: 0;
-            top: 12px;
+            left: -23px;
+            top: 1px;
         }
         &-likes,
         &-shows {
             font-size: 15px;
-            line-height: 40px;
+            line-height: 15px;
+            margin: 12px 0 12px 54px;
             color: #7e7e7e;
-            padding-left: 54px;
             position: relative;
         }
         &-likes::before {
@@ -911,8 +910,8 @@
             background-size: cover;
             width: 16px;
             height: 14px;
-            left: 33px;
-            top: 12px;
+            left: -25px;
+            top: 1px;
         }
         &-shows::before {
             content: '';
@@ -923,8 +922,8 @@
             background-size: cover;
             width: 17px;
             height: 9px;
-            left: 30px;
-            top: 14px;
+            left: -26px;
+            top: 3px;
         }
     }
 }
