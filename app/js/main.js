@@ -9,6 +9,10 @@ $(document).ready(function() {
         slidesToShow: 3,
         slidesToScroll: 1,
     });
+    $('.item__bottom-rating').rateYo({
+        rating: 3.5,
+        starWidth: "14px"
+    });
 });
 
 var mixer = mixitup('.newestProducts__inner-items');
