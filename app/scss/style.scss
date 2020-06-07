@@ -418,6 +418,17 @@
         width: 100%;
         display: flex;
         align-items: center;
+        &-left {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-right {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+        }
     }
     &priceCategory a {
         color: #fff;
