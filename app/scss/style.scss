@@ -1101,4 +1101,164 @@
 
 //End of join us today Section
 
+//Start of Footer
+
+.footer{
+    a {
+        color: #ababab;
+    }
+    &__top {
+        background-color: #262b30;
+        padding: 115px 0;
+        &-inner {
+            display: flex;
+            justify-content: space-between;
+        }
+        &-logo {
+            height: 40px;
+            margin-bottom: 35px;
+        }
+        &-title {
+            margin-bottom: 35px;
+            font-size: 18px;
+            color: #fff;
+            line-height: 40px;
+        }
+        &-col:first-child {
+            max-width: 270px;
+            width: 100%;
+        }
+        &-col:nth-child(2),
+        &-col:nth-child(3) {
+            max-width: 165px;
+            width: 100%;
+        }
+        &-col:last-child {
+            max-width: 360px;
+            width: 100%;
+        }
+        &-text {
+            line-height: 28px;
+            color: #ababab;
+            margin-bottom: 35px;
+        }
+        &-phone,
+        &-email,
+        &-address {
+            color: #ababab;
+            margin-top: 25px;
+            padding-left: 30px;
+            position: relative;
+        }
+        &-phone::before,
+        &-email::before,
+        &-address::before{
+            content: '';
+            position: absolute;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &-phone::before {
+            width: 18px;
+            height: 17px;
+            background-image: url(../images/footer/phone-handset.png);
+        }
+        &-email::before {
+            width: 17px;
+            height: 11px;
+            background-image: url(../images/footer/envelope.png);
+        }
+        &-address::before {
+            width: 10px;
+            height: 17px;
+            left: 3px;
+            background-image: url(../images/footer/map-marker.png);
+        }
+        &-links {
+            li {
+                margin-bottom: 18px;
+            }
+        }
+        &-form {
+            position: relative;
+            margin-bottom: 40px;
+            input {
+                width: 100%;
+                height: 50px;
+                background-color: #fff;
+                border: none;
+                outline: none;
+                border-radius: 25px;
+                padding-left: 30px;
+                padding-right: 120px;
+                color: #000;
+                placeholder {
+                    color: #ababab;
+                }
+            }
+            button {
+                position: absolute;
+                width: 110px;
+                height: 50px;
+                border-radius: 25px;
+                border: none;
+                outline: none;
+                background-color: #0674ec;
+                color: #fff;
+                right: -1px;
+                bottom: 0;
+                cursor: pointer;
+            }
+        }
+        &-socialLinks {
+            display: flex;
+            li {
+                & + li {
+                    margin-left: 13px;
+                }
+                a {
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 21px;
+                    background-image: url(../images/footer/social_sprite.png);
+                }
+                .facebook {
+                    background-position: -42px 0;
+                }
+                .twitter {
+                    background-position: 0 0;
+                }
+                .google {
+                    background-position: -84px -42px;
+                }
+                .pinterest {
+                    background-position: 0 -42px;
+                }
+                .linkedin {
+                    background-position: -42px -42px;
+                }
+                .any {
+                    background-position: -84px 0;
+                }
+
+            }
+        }
+    }
+    &__bottom {
+        text-align: center;
+        padding: 40px 0;
+        background-color: #192027;
+        color: #999999;
+        a {
+            color: #fff;
+        }
+    }
+}
+
+//End of Footer
+
 
